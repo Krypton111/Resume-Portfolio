@@ -1894,3 +1894,26 @@ textarea.form-input::-webkit-resizer { display: none; }
 .about-text a:focus {
   color: var(--light-gray);
 }
+
+/* Repository cards use a contained development icon rather than a misleading project screenshot. */
+.repository-project-img {
+  background: var(--eerie-black-2);
+}
+
+.repository-project-img img.repository-project-icon {
+  object-fit: contain;
+  padding: 52px;
+}
+
+.project-description {
+  margin: 8px 10px 10px;
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.repository-project-img .project-item-icon-box {
+  display: grid;
+  place-items: center;
+}
