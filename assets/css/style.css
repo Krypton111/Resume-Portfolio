@@ -1880,3 +1880,17 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+/* Inline portfolio links should remain part of the About paragraph. */
+.about-text a {
+  display: inline;
+  color: var(--orange-yellow-crayola);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.about-text a:hover,
+.about-text a:focus {
+  color: var(--light-gray);
+}
